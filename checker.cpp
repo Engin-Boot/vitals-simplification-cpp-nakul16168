@@ -1,5 +1,6 @@
 #include <assert.h>
 
+
 bool bpmIsOk(float bpm){
     return !(bpm < 70 || bpm > 150) ;
 }
